@@ -2,7 +2,7 @@ from random import randint
 
 
 
-def attack(Василис, char_class):
+def attack(char_name, char_class):
     if char_class == 'warrior':
         return (f'{char_name} нанёс противнику урон, равный '
                 f'{5 + randint(3, 5)}')
